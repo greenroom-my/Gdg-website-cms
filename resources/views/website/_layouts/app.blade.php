@@ -1,6 +1,6 @@
 @extends('_base')
 
 @section('main')
-{{--    @include('website._components.nav')--}}
+    @include('website._components.nav')
     @yield('layout')
 @endsection

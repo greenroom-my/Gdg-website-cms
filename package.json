@@ -23,5 +23,9 @@
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
     },
-    "dependencies": []
+    "dependencies": {
+        "autoprefixer": "^10.1.0",
+        "postcss": "^8.2.1",
+        "tailwindcss": "^2.0.1"
+    }
 }
