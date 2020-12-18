@@ -1,5 +1,5 @@
 <nav class="bg-light">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 pt-2">
         <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
                 <div class="flex-shrink-0">
@@ -8,17 +8,17 @@
             </div>
             <div class="hidden md:block">
                 <div class="ml-4 flex items-center md:ml-6">
-                    <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="#" class="bg-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
 
                 </div>
             </div>
