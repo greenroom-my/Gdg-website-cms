@@ -3,16 +3,16 @@
         <div class="flex items-center justify-between h-16">
             <div class="flex items-center">
                 <div class="flex-shrink-0">
-                    <img class="h-10 w-100" src="{{'images/gdg-logo.svg'}}" alt="logo">
+                    <a href="{{route('website.home')}}"><img class="h-10 w-100" src="{{'images/gdg-logo.svg'}}" alt="logo"></a>
                 </div>
             </div>
             <div class="hidden md:block">
                 <div class="ml-4 flex items-center md:ml-6">
-                    <a href="#" class="bg-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="{{route('website.home')}}" class="bg-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
+                    <a href="{{route('website.event.index')}}" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                    <a href="{{route('website.team')}}" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
 
                     <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</a>
 

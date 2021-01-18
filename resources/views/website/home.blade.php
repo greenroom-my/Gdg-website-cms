@@ -71,7 +71,7 @@
     </div>
 
     <!---our past event--->
-    <div class="bg-gray-100 my-10">
+    <div class="bg-gray-100 mt-10">
         <div class="container mx-auto lg:py-20 py-10 px-10">
             <h2 class="lg:text-4xl text-3xl font-semibold text-blue-500 mb-4">Our Past Event</h2>
             <div class="flex flex-wrap overflow-hidden -mx-1 sm:-mx-2">
@@ -139,7 +139,8 @@
             <p class="text-white mb-5">Be respectful to each other. Treat everyone with respect. Participate while acknowledging that everyone deserves to be here — and each of us has the right to
                 enjoy our experience without fear of harassment, discrimination, or condescension, whether blatant or via micro-aggressions. All forms of communication should not demean others.
                 Consider what you are saying and how it would feel if it were said to you or about you.</p>
-            <p class="text-white mb-10">Speak up if you see or hear something. Harassment is not tolerated, and you are empowered to politely engage when you or others are disrespected. The person making you feel
+            <p class="text-white mb-10">Speak up if you see or hear something. Harassment is not tolerated, and you are empowered to politely engage when you or others are disrespected. The person
+                making you feel
                 uncomfortable may not be aware of what they are doing, and politely bringing their behavior to their attention is encouraged.
             </p>
             <button class="inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-white uppercase transition bg-transparent border-2 border-white rounded-full ripple
@@ -187,9 +188,6 @@
 
         </div>
     </div>
-
-    @include('website._components.footer')
-
 @endsection
 
 @push('script')
@@ -211,6 +209,5 @@
                 });
             }, 3500);
         })();
-
     </script>
 @endpush
