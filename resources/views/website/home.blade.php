@@ -73,7 +73,7 @@
     <!---our past event--->
     <div class="bg-gray-100 mt-10">
         <div class="container mx-auto lg:py-20 py-10 px-10">
-            <h2 class="lg:text-4xl text-3xl font-semibold text-blue-500 mb-4">Our Past Event</h2>
+            <h2 class="lg:text-4xl text-3xl font-semibold text-blue-500 mb-4">Our Event</h2>
             <div class="flex flex-wrap overflow-hidden -mx-1 sm:-mx-2">
                 <div class="w-full overflow-hidden my-3 px-1 sm:my-3 sm:px-2 md:w-1/2 lg:w-1/3 xl:w-1/3">
                     <a href="#">

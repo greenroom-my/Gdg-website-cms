@@ -8,17 +8,17 @@
             </div>
             <div class="hidden md:block">
                 <div class="ml-4 flex items-center md:ml-6">
-                    <a href="{{route('website.home')}}" class="bg-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="{{route('website.home')}}" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
 
-                    <a href="{{route('website.event.index')}}" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
+                    <a href="{{route('website.event.index')}}" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Events</a>
 
-                    <a href="{{route('website.team')}}" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
+                    <a href="{{route('website.team')}}" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
 
                 </div>
             </div>
