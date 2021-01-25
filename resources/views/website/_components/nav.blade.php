@@ -16,7 +16,7 @@
 
                     <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</a>
 
-                    <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                    <a href="{{route('website.blog.index')}}" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
 
                     <a href="#" class="text-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
 

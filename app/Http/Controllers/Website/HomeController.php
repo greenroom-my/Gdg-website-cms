@@ -20,4 +20,9 @@ class HomeController extends Controller
     {
         return view('website.event.index');
     }
+
+    public function blog()
+    {
+        return view('website.blog.index');
+    }
 }
