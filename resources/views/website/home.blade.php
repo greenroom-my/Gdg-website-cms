@@ -1,5 +1,5 @@
 @extends('website._layouts.app', ['active' => 'home'])
-@section('title', 'HomePage')
+@section('title', 'GDG George Town')
 
 @section('layout')
     <!--banner--->
@@ -123,10 +123,12 @@
                     </a>
                 </div>
                 <div class="w-full overflow-hidden flex justify-center mt-10">
-                    <button class="inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-500 uppercase transition bg-transparent border-2 border-blue-500 rounded-full ripple
+                    <a href="{{route('website.event.index')}}" class="inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-500 uppercase transition bg-transparent border-2
+                    border-blue-500
+                    rounded-full ripple
                 hover:bg-blue-100 focus:outline-none waves-effect">
                         View More
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
