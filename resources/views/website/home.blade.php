@@ -3,7 +3,7 @@
 
 @section('layout')
     <!--banner--->
-    <div style="background-image: url('images/sliderOne.jpg');" class="relative bg-no-repeat bg-cover lg:bg-center p-6 bg-top-center">
+    <div style="background-image: url('images/sliderOne.jpg');" class="relative bg-no-repeat bg-cover lg:bg-center pt-40 lg:pt-8 px-6 bg-top-center">
         <div class="max-w-6xl mx-auto lg:py-56 md:py-40 py-10">
             <h2 id="title" class="lg:text-5xl text-4xl font-semibold text-white leading-none mb-4">GDG George Town</h2>
             <div class="flex items-center flex-wrap justify-start max-w-2xl lg:mx-0 mx-auto">
@@ -20,18 +20,18 @@
     <div class="container mx-auto lg:py-20 py-10">
         <div class="grid lg:grid-cols-3 md:grid-cols-6 sm:grid-cols-12 gap-4">
             <div class="lg:col-span-1 md:col-span-6 lg:p-10 px-10 py-5">
-                <img class="h-20 w-100" src="{{'images/connect.svg'}}" alt="icon">
+                <img class="h-14 w-100" src="{{'images/connect.svg'}}" alt="icon">
                 <h4 class="text-blu-900 font-bold mt-2">Connect</h4>
                 <p class="text-gray-900">Meet other local developers and those interested in developer technologies. </p>
             </div>
 
             <div class="lg:col-span-1 md:col-span-6 lg:p-10 px-10 py-5">
-                <img class="h-20 w-100" src="{{'images/code.svg'}}" alt="icon">
+                <img class="h-14 w-100" src="{{'images/code.svg'}}" alt="icon">
                 <h4 class="text-gray-900 font-bold mt-2">Learn</h4>
                 <p class="text-gray-900">Learn about a wide range of technical topics where you can gain new skills through hands-on workshops and in-person training.</p></div>
 
             <div class="lg:col-span-1 md:col-span-6 lg:p-10 px-10 py-5">
-                <img class="h-20 w-100" src="{{'images/grow.svg'}}" alt="icon">
+                <img class="h-14 w-100" src="{{'images/grow.svg'}}" alt="icon">
                 <h4 class="text-gray-900 font-bold mt-2">Grow</h4>
                 <p class="text-gray-900">Apply your new learnings and connections to build great products, advance your skills, career and network.</p></div>
         </div>
@@ -77,16 +77,16 @@
             <div class="flex flex-wrap overflow-hidden -mx-1 sm:-mx-2">
                 <div class="w-full overflow-hidden my-3 px-1 sm:my-3 sm:px-2 md:w-1/2 lg:w-1/3 xl:w-1/3">
                     <a href="#">
-                        <img src="{{'images/event/devfest-wtm.jpg'}}" class="w-100 rounded-2xl border hover:shadow">
+                        <img src="{{'images/event/devfest-wtm.jpg'}}" class="w-100 rounded-2xl border hover:shadow-lg duration-300">
                         <p class="font-bold text-gray-900 hover:text-gray-700 mt-2">DevFest WTM George Town 2020</p>
                         <div class="flex flex-wrap">
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-blue-600">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-blue-400 hover:bg-blue-500">
                                 Online
                             </div>
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-green-600">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-green-400 hover:bg-green-500">
                                 Flutter
                             </div>
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-red-500">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-red-400 hover:bg-red-500">
                                 Ui Ux
                             </div>
                         </div>
@@ -95,13 +95,13 @@
 
                 <div class="w-full overflow-hidden my-3 px-1 sm:my-3 sm:px-2 md:w-1/2 lg:w-1/3 xl:w-1/3">
                     <a href="#">
-                        <img src="{{'images/event/devfest.jpg'}}" class="w-100 rounded-2xl border hover:shadow">
+                        <img src="{{'images/event/devfest.jpg'}}" class="w-100 rounded-2xl border hover:shadow-lg duration-300">
                         <p class="font-bold text-gray-900 hover:text-gray-700 mt-2">DevFest GDG George Town 2020</p>
                         <div class="flex flex-wrap">
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-blue-600">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-red-400 hover:bg-red-500">
                                 Online
                             </div>
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-yellow-500">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-yellow-400 hover:bg-yellow-500">
                                 Web
                             </div>
                         </div>
@@ -110,13 +110,13 @@
 
                 <div class="w-full overflow-hidden my-3 px-1 sm:my-3 sm:px-2 md:w-1/2 lg:w-1/3 xl:w-1/3">
                     <a href="#">
-                        <img src="{{'images/event/webdev.jpg'}}" class="w-100 rounded-2xl border hover:shadow">
+                        <img src="{{'images/event/webdev.jpg'}}" class="w-100 rounded-2xl border hover:shadow-lg duration-300">
                         <p class="font-bold text-gray-900 hover:text-gray-700 mt-2">web.dev Live George Town 2020</p>
                         <div class="flex flex-wrap">
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-blue-600">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-blue-400 hover:bg-blue-500">
                                 Online
                             </div>
-                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded leading-none tracking-wide bg-yellow-500">
+                            <div class="text-white text-xs px-2 py-1 mr-1 mt-1 rounded-full leading-none tracking-wide bg-yellow-400 hover:bg-yellow-500">
                                 Web
                             </div>
                         </div>

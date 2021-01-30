@@ -23,6 +23,16 @@ class HomeController extends Controller
 
     public function blog()
     {
-        return view('website.blog.index');
+        return view('website.categories.index');
+    }
+
+    public function blogDetail()
+    {
+        return view('website.categories.blog.detail');
+    }
+
+    public function storiesDetail()
+    {
+        return view('website.categories.stories.detail');
     }
 }
